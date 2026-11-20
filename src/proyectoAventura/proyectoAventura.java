@@ -40,5 +40,7 @@ public class proyectoAventura {
 		}
 		// Inicializa la partida tras insertar la clave
 		System.out.println("Empieza la partida");
+		// Referencio a la clase "Prueba"
+		Prueba p1 = new Prueba();
 	}
 }
