@@ -11,7 +11,7 @@ public class proyectoAventura {
 
 		// Menú inicial
 		System.out.println(
-				" ▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄      ▄▀▀▄ ▄▀▄  ▄▀▀█▄   ▄▀▀▀▀▄      ▄▀▀█▄▄   ▄▀▀█▄▄▄▄  ▄▀▀▀▀▄          ▄▀▀▄ ▄▀▀▄  ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▄   ▄▀▀▀▀▄     \r\n"
+				"▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄      ▄▀▀▄ ▄▀▄  ▄▀▀█▄   ▄▀▀▀▀▄      ▄▀▀█▄▄   ▄▀▀█▄▄▄▄  ▄▀▀▀▀▄          ▄▀▀▄ ▄▀▀▄  ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▄   ▄▀▀▀▀▄     \r\n"
 						+ "█    █      ▐ ▄▀ ▀▄ █ █   ▐     ▐ ▄▀ ▀▄ █    █      █  █ ▀  █ ▐ ▄▀ ▀▄ █ █   ▐     █ ▄▀   █ ▐  ▄▀   ▐ █    █          █   █    █ █  █ ▀  █ ▐ ▄▀   █ █   █   █ ▐ ▄▀ ▀▄ █    █      \r\n"
 						+ "▐    █        █▄▄▄█    ▀▄         █▄▄▄█ ▐    █      ▐  █    █   █▄▄▄█    ▀▄       ▐ █    █   █▄▄▄▄▄  ▐    █          ▐  █    █  ▐  █    █   █▄▄▄▀  ▐  █▀▀█▀    █▄▄▄█ ▐    █      \r\n"
 						+ "    █        ▄▀   █ ▀▄   █       ▄▀   █     █         █    █   ▄▀   █ ▀▄   █        █    █   █    ▌      █             █    █     █    █    █   █   ▄▀    █   ▄▀   █     █       \r\n"
@@ -40,7 +40,10 @@ public class proyectoAventura {
 		}
 		// Inicializa la partida tras insertar la clave
 		System.out.println("Empieza la partida");
-		// Referencio a la clase "Prueba"
-		Prueba p1 = new Prueba();
+		// Creo un nuevo objeto de nombre "newObj" referenciando a Prueba.java
+		Prueba newObj = new Prueba();
+		newObj.Texto1();
+		newObj.Texto2();
+		
 	}
 }
